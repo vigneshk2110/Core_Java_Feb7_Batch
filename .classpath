@@ -8,6 +8,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Day6"/>
 	<classpathentry kind="src" path="Day5"/>
+	<classpathentry kind="src" path="Day8"/>
 	<classpathentry kind="src" path="Day7"/>
+	<classpathentry kind="src" path="Day9"/>
+	<classpathentry kind="src" path="Day1"/>
+	<classpathentry kind="src" path="Day2"/>
+	<classpathentry kind="src" path="Day3"/>
+	<classpathentry kind="src" path="Day40"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

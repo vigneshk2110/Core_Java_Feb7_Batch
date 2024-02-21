@@ -13,3 +13,20 @@ Q1 --> Data Types & operator
 12. Print a Square with "*" as Building Blocks with size n
 13. Print a Rectangle with only border of Dimension m x n
 14. Print a Isocelous Triangle
+
+Loops
+15. Print the factorial of number
+16. Print the Fibonacci series
+17. find the exponential of 2 number
+
+Strings
+18. Given a String, find the no of Lowercase & uppercase characters
+19. Given a String, find the no of vowels & consonents in a string
+20. Given a String, find if its a Palindrome or not
+21. Given a String, find the no of words
+
+Do Not Use In-built function
+22. find if 2 strings are equal literally
+23. Given two strings s1, s2 compare them. i.e return 0 if they are equal, return a negative value if s1 is less than s2 and return a positive value if s1 is greater than s2. String s1 is less than String s2 if in a dictionary string s1 would appear before s2.
+
+int compare(String s1, String s2);

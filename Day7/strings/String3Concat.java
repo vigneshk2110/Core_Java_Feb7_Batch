@@ -9,7 +9,7 @@ public class String3Concat {
 		String str1 = 10 + 5.30 + "Java" + 40.50 + 40;
 		System.out.println(str1); // 15.3Java40.540
 
-		String s1 = "Java";
+		String s1 = "Java ";
 		String s2 = "Programs";
 		
 		System.out.println(s1.concat(s2));  // Java Programs
@@ -21,10 +21,10 @@ public class String3Concat {
 		System.out.println(s3);
 		
 		String s4 = String.format("%s , %s",s1,s2);   //String s4 to store the result  
-        System.out.println(s4);
+        System.out.println(s4);  // Java  , Programs
         
-        String s5 = String.join(" % ",s1,s2);   //String s5 to store the result  
-        System.out.println(s5);
-
+        String s5 = String.join(" , ",s1,s2);   //String s5 to store the result  
+        System.out.println(s5); // Java  % Programs
+        
 	}
 }

@@ -11,7 +11,8 @@ public class String5UtilityMethods {
 		System.out.println(str);//Java(no change in original)   
 		
 //		equalsIgnoreCase()
-		String s10="java";  
+		String s10="java";
+		s10 = "Java";
 		String s20="java";  
 		String s30="JAVA";  
 		String s40="python";  

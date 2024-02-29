@@ -7,16 +7,17 @@ public class StringTokenizer1 {
 
 //		break a String into tokens with a delimiter in place
 		
-		StringTokenizer st = new StringTokenizer("my name is Ajith", " ");
+		StringTokenizer st = new StringTokenizer("my,name,is,Ajith", ",");
+		int i = 0;
 		while (st.hasMoreTokens()) {
-			System.out.println(st.nextToken());
+			System.out.println(st.nextToken() + " " + i++);
 		}
 
-		StringTokenizer st1 = new StringTokenizer("my,name,is,Ajith");
-		System.out.println("Next token is : " + st1.nextToken(","));
-		
-		StringTokenizer st2 = new StringTokenizer("Hello Everyone Have a nice day"," ");    
-        System.out.println("Total number of Tokens: "+st2.countTokens());    
+//		StringTokenizer st1 = new StringTokenizer("my,name,is,Ajith");
+//		System.out.println("Next token is : " + st1.nextToken(","));
+//		
+//		StringTokenizer st2 = new StringTokenizer("Hello Everyone Have a nice day"," ");    
+//        System.out.println("Total number of Tokens: "+st2.countTokens());    
 		
 		
 	}

@@ -30,3 +30,97 @@ Do Not Use In-built function
 23. Given two strings s1, s2 compare them. i.e return 0 if they are equal, return a negative value if s1 is less than s2 and return a positive value if s1 is greater than s2. String s1 is less than String s2 if in a dictionary string s1 would appear before s2.
 
 int compare(String s1, String s2);
+
+Methods
+24. Define two methods to print the maximum and the minimum number respectively among three numbers entered by user. 
+
+25. Write a program with a method named getTotal that accepts two integers as  user input and Print its sum. 
+Call this method from main( ) and print the results.
+
+25. A prime number is a number that is evenly divisible only by itself and 1. 
+For example, the number 5 is prime because it can be evenly divided only by 1 and 5. 
+The number 8, however, is not prime because it can be divided evenly by 1, 2, 4, and 8.
+Write a method named isPrime, which takes an integer as  user input and Prints true
+if the input is a prime number, or false otherwise. 
+
+26. Write a value-Printing method, isVowel that prints the value true if a given character is a vowel, and otherwise print false. 
+
+27. In main(), call a method that accept a string from user and count number of vowels in that string.
+print the No of vowels.
+
+28. Write a program which will ask the user to enter his/her marks (out of 100). 
+Define a method that will display grades according to the marks entered as below:
+Marks        Grade
+91-100         AA
+81-90          AB
+71-80          BB
+61-70          BC
+51-60          CD
+41-50          DD
+<=40          Fail
+
+
+29. Define a method that returns the product of two numbers entered by user & that should be passed as arguments to the method.\
+
+30. Write a program to print the circumference and area of a circle  by passing radius as arguments to the method.
+
+31. Write a method to count all vowels in a string passed as arguments
+
+32. Write a method to check whether a year (integer) entered by the user is a leap year or not.
+
+33. Write a Java method to check whether a string is a valid password.
+	Password rules:
+	A password must have at least ten characters.
+	A password consists of only letters and digits.
+	A password must contain at least two digits.
+
+
+String Buffer 
+
+34. Try to use all the below listed inbuilt methods of String Buffer Class on your java Programs
+
+append()
+length()
+capacity()
+charAt()
+delete()
+deleteCharAt()
+ensureCapacity()
+insert()
+length()
+reverse()
+replace()
+
+
+String Builder
+
+35. Try to use all the below listed inbuilt methods of String Builder Class on your java Programs
+
+StringBuilder append (String s)
+StringBuilder insert (int offset, String s)
+StringBuilder replace(int start, int end, String s)
+StringBuilder delete(int start, int end)
+StringBuilder reverse()
+int capacity()
+void ensureCapacity(int min)
+char charAt(int index)
+int length()
+String substring(int start)
+String substring(int start, int end)
+int indexOf(String str)
+int lastIndexOf(String str)
+Void trimToSize()
+
+Arrays
+
+36. Find the Largest Element in an Array
+37. Make a copy of an Array
+38. Rotate Array n Times
+39. Check if two Arrays are Equal or not
+40. Merge Two Arrays of different sizes
+41. Write a Program to Print a 2D Array
+42. Find the Second Largest Number in an Array
+43. Reverse an Array -->  int[] arr = {1, 2, 3, 4, 5};
+44. Move all Zeroes to the End of the Array  -->   int[] arr = {1, 0, 2, 0, 3, 0, 4, 0};
+45. Search an Element in an Array & Return the index
+46. Increment All even index Elements of an Array by two & Decrement All odd index element by 3

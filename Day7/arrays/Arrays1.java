@@ -5,7 +5,10 @@ public class Arrays1 {
 	public static void main(String[] args) {
 		
 		int [] runsOfBatsmen = {10, 23, 0, 12, 101};
-		String[] batsmen = {"John", "Maria", "David", "Rahman"};
+		System.out.println(runsOfBatsmen[3]);
+//		First Index = 0
+//		Last Index = length-1
+		String[] batsmen = {"John", "Maria", "David", "Rahman, Sachin"};
 		
 		
 //		What is an Array?
@@ -27,7 +30,9 @@ public class Arrays1 {
 //		1. Single Dimensional
 //		2. Multi-Dimensional
 		
-		int[][] matrix = {{1, 2}, {3, 4}, {5, 6}};
+		int [][] matrix = {{1, 2}, {3, 4}, {5, 6}};
+		
+		System.out.println(matrix[2][0]);
 		
 		
 		

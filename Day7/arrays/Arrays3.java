@@ -4,7 +4,7 @@ public class Arrays3 {
 	public static void main(String[] args) {
 		
 //		declaration, instantiation and initialization  
-		int [] stockPrice = {10, 120, 100, 66, 55};		
+		int [] stockPrice = {10, 120, 100, 66, 55, 567};		
 		
 //		Length --> Inbuilt method
 		

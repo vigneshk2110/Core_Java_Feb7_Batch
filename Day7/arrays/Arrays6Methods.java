@@ -8,10 +8,12 @@ public class Arrays6Methods {
     { 
 // toString
         int intArr[] = { 10, 20, 15, 22, 35 }; 
-  
+        
+        String array =Arrays.toString(intArr); 
+        
         // To convert the elements as List 
         System.out.println("Integer Array as List: "
-                           + Arrays.toString(intArr)); 
+                           + array); 
         
 //Sort(fromIndex, toIndex)
         Arrays.sort(intArr, 1, 3);

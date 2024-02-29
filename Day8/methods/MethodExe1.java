@@ -25,7 +25,24 @@ public class MethodExe1 {
 //		}
 	
 	public static void main(String[] args) {
-		System.out.println("Main Method");
+		System.out.println("Main Method called by JVM");
+		
+		add(); // Method Calling		
+		
+		System.out.println("After add Method executed");
+		
+		add();
+	
+		
+		
 	}	
+	
+	public static void add() {
+		System.out.println("Add method called by main Method");
+		System.out.println("Add method called by main Method");
+		System.out.println("Add method called by main Method");
+		System.out.println("Add method called by main Method");
+		System.out.println("Add method called by main Method");
+	}
 
 }

@@ -124,3 +124,39 @@ Arrays
 44. Move all Zeroes to the End of the Array  -->   int[] arr = {1, 0, 2, 0, 3, 0, 4, 0};
 45. Search an Element in an Array & Return the index
 46. Increment All even index Elements of an Array by two & Decrement All odd index element by 3
+
+47. Write a java program to Print from 1 to 100 by implementing below rules
+    1. Replace numbers divisible by three with the word "Fizz".
+    2. Replace numbers divisible by five with the word "Buzz".
+    3. Replace numbers divisible by both three and five with the word "FizzBuzz".
+
+48.Write a progrom to make the String title case & Return
+String str = "Get the future you want"
+
+49. Find out first non-repeating character in given string
+    "apgeminicap"
+
+50.(1,12,15,17,188,145,122,192)
+    find out third largest number in given list
+51. write java program that prints special characters in a string
+    input: !@capgemini3$
+    output:!@$
+
+OOPS    
+52. Create Below Classes & its Objects
+	a. Rectangle
+	b. Circle
+	c. Square
+	d. Point
+
+53. Create Employee Classes with below Field
+	a. Name
+	b. Year of Joining
+	c. Salary
+	d. Dept
+	
+	Create objects for employees & Print the same
+
+
+54. 
+
